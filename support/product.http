@@ -1,0 +1,34 @@
+###
+
+GET http://localhost:3001/api/products HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3001/api/products/5e8bc9805219f6246467a2b5 HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE http://localhost:3001/api/products/5e8bcefbfc4aca21bc2c2458 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT  http://localhost:3001/api/products/5e8bcbb081717444ecadc6e6 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "React"
+}
+
+###
+
+POST http://localhost:3001/api/products HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Hi",
+    "description": "description",
+    "url": "www.google.com"
+}
