@@ -11,3 +11,5 @@ npm install
 ```env
 MONGO_URL={mongo_local_url}
 ```
+
+Based on [rockerseat](https://rocketseat.com.br/) starter courses
